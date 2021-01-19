@@ -1,0 +1,613 @@
+{
+  padding:0;
+  margin:0;
+}
+
+body{
+
+  background-image: url("Why_London_Underground_is_nicknamed_The_Tube.jpg");
+  background-size: cover;
+  background-position:center;
+    box-sizing:borrder-box;
+    margin:0;
+    padding:0;
+}
+
+.service_option{
+  background-color: green;
+  color:yellow;
+  font-weight: bolder;
+}
+.My_reg_sign_in{
+  height:30px;
+  width:30%;
+  background-color: blue;
+  outline-style: none;
+  margin-top:20px;
+  margin-left:35%;
+  COLOR:white;
+  font-weight:bolder;
+
+}
+.My_reg_adm_sign{
+  height:40px;
+  width:30%;
+  margin-left:35%;
+  background-color:blue;
+  color:white;
+
+}
+.My_reg_adm_sign>a{
+  color:white;
+}
+.My_reg_sign_in>a{
+  color:white;
+}
+.GALLERY_DIV{
+  WIDTH:20%;
+  margin-left:40%;
+  background-color:blue;
+}
+
+.misison_vision_div{
+  height:530px;
+  width:80%;
+  margin-left:10%;
+  background-color: rgba(255, 0, 0,0.5);
+}
+.mission{
+  height:80px;
+  width:70%;
+  background-color: white;
+  margin-left:15%;
+
+}
+
+.mission>h5{
+  text-align: center;
+  font-size: 20px;
+  color:green;
+}
+.mission>p{
+  text-align: center;
+  color:teal;
+  font-size: 18px;
+}
+.vission{
+  margin-top:10px;
+  height:80px;
+  width:70%;
+  background-color: white;
+  margin-left:15%;
+}
+.vission>h4{
+  text-align: center;
+  font-size: 20px;
+  color:green;
+}
+.vission>p{
+  text-align: center;
+  color:teal;
+  font-size: 18px;
+}
+.about_us{
+  height:190px;
+
+  width:auto;
+  background-color:white;
+
+  margin-top:50px;
+  color:teal;
+  text-align:center;
+  font-size:20px;
+}
+.about_us>h6{
+  text-align:center;
+  font-size:20px;
+  color:green;
+}
+.mission_vision_header{
+  text-align: center;
+  font-size:20px;
+  color:yellow;
+  height:35px;
+  width:auto;
+  background-color:green;
+}
+
+.title_banner{
+  height:250px;
+  width:65%;
+  margin-left:15%;
+  background-color: rgba(255, 0, 0, 0.4);
+  margin-top:150px;
+  border-style:solid;
+  border-left-color: green;
+    border-right-color:yellow ;
+      border-top-color: pink;
+        border-left-color: blue;
+
+}
+.title_banner>H1{
+text-align:center;
+color: white;
+font-stretch: extra-expanded;
+font-size: 78px;
+
+}
+.preliminary_pages:hover{
+  height:30px;
+  width:50%;
+
+}
+.main_div_railway_gallery{
+  height:600px;
+  width:80%;
+  background-color:  rgba(255, 0, 0, 0.2);
+  margin-left:10%;
+}
+.today_picture_div{
+  height:50px;
+  width:30%;
+  margin-left:35%;
+  text-align: CENTER;
+  COLOR:WHITE;
+  border-style: solid;
+  border-width:2px;
+  border-color: white;
+margin:0;
+padding:0;
+font-size: 20px;
+margin-top:10px;
+}
+.photos{
+  height:500px;
+  width: 70%;
+background-color: white;
+margin-top:40px;
+margin-left: 15%;
+
+}
+.photos:hover{
+  height:600px;
+  width: 100%;
+  margin-left: 0%;
+  background-color: rgba(255, 0, 0, 0.5);
+  cursor:auto;
+}
+.my_photos{
+  height:100px;
+  width:23%;
+  background-color: blue;
+  display:flex;
+  margin-left:0.5%;
+  margin-top:10px;
+}
+.my_photos:hover{
+  height:300px;
+  width:40%;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo_1{
+background-image: url( "railway1.jpg") ;
+display: inline-block;
+}
+.photo_2{
+background-image: url( "railway2.jpg") ;
+display: inline-block;
+}
+.photo_3{
+  background-image: url( "raileway3.jpg") ;
+  display: inline-block;
+}
+.photo_4{
+  background-image: url( "image4.jpg") ;
+  display: inline-block;
+}
+.photo_5{
+  background-image: url( "ralyway5.jpg") ;
+  display: inline-block;
+}
+.photo_6{
+  background-image: url( "r7.jpg") ;
+  display: inline-block;
+}
+.photo_7{
+background-image: url( "R8.jpg") ;
+display: inline-block;
+}
+.photo_8{
+background-image: url( "R9.jpg") ;
+display: inline-block;
+}
+.photo_9{
+background-image: url( "R10s.jpg") ;
+display: inline-block;
+}
+.photo_10{
+background-image: url( "R11.jpg") ;
+display: inline-block;
+}
+.photo_11{
+background-image: url( "R12.jpg") ;
+display: inline-block;
+}
+.photo_12{
+background-image: url( "R13.jpg") ;
+display: inline-block;
+}
+.photo_13{
+background-image: url( "R14.jpg") ;
+display: inline-block;
+}
+.photo_14{
+background-image: url( "R15.jpg") ;
+display: inline-block;
+}
+.photo_15{
+background-image: url( "R16.jpg") ;
+display: inline-block;
+}
+.photo_16{
+background-image: url( "R17.jpg") ;
+display: inline-block;
+}
+
+.misison_vision_div{
+  height:400px;
+  width:80%;
+  margin-left:10%;
+  background-color: rgba(255, 0, 0,0.5);
+}
+.mission{
+  height:80px;
+  width:70%;
+  background-color: white;
+  margin-left:15%;
+
+}
+.mission>h5{
+  text-align: center;
+  font-size: 20px;
+  color:green;
+}
+.mission>p{
+  text-align: center;
+  color:teal;
+  font-size: 18px;
+}
+.vission{
+  margin-top:10px;
+  height:80px;
+  width:70%;
+  background-color: white;
+  margin-left:15%;
+}
+.vission>h3{
+  text-align: center;
+  font-size: 20px;
+  color:green;
+}
+.vission>p{
+  text-align: center;
+  color:teal;
+  font-size: 18px;
+}
+.put_details{
+  height:350px;
+  width:60%;
+  margin-left: 20%;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.title_contactUs{
+height:30px;
+width: 30%;
+background-color: green;
+margin-left: 35%;
+
+}
+.title_contactUs>h3{
+  text-align: center;
+  color:white;
+}
+.contactVaue{
+
+  height:40px;
+  width:70%;
+  margin-left:15%;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.submit_button_user_input{
+  height:25px;
+  width:15%;
+  background-color:teal;
+  color:blue;
+  margin-left: 42.5%;
+  margin-top:15px;
+    border-radius: 10px;
+}
+.register_div{
+  height:200px;
+  width:40%;
+  margin-left:30%;
+  background-color: rgba(255, 0, 0, 0.3);
+  margin-top:130px;
+}
+.register_header{
+  height:30px;
+  width:40%;
+  margin-left:35%;
+  background-color:green;
+
+}
+.register_header>h4{
+  color : white;
+  text-align: center;
+
+}
+.register_styles{
+  height:30px;
+width:80%;
+border-radius:10px;
+margin-left: 10%;
+margin-top: 30px;
+text-align: center;
+}
+.submit_reg{
+  height:30px;
+  width:30%;
+  background-color:teal;
+  color:blue;
+margin-left:10px;
+margin-top:20px;
+border-radius:10px;
+font-weight: bolder;
+}
+
+/*admin pane*/
+.main_admin_panel{
+  height:1000px;
+  width:70%;
+  margin-left:15%;
+  background-color:rgba(255, 0, 0, 0.6);
+  opacity:0.9;
+}
+.mini_div_admin{
+
+background-color: orange;
+display: inline-block;
+}
+.stats_admin{
+  height:260px;
+  width:36%;
+margin-top:20PX;
+
+  margin-top:50px;
+  border-radius:180px;
+  display:inline-block;
+  color:teal;
+  font-weight:bolder;
+    background-image: url("DqEmIEvXLD-badpie.png");
+    object-fit:cover;
+    background-position: center;
+    margin-left:10%;
+    border-radius:400px;
+    font-size: 20px;
+  }
+.mini_div_admin{
+  background-image: url("booking.png");
+  background-repeat: no-repeat;
+  margin-right:10%;
+}
+.stats_infor{
+  height:400px;
+  width:100%;
+display: flex;
+  background-color:maroon;
+}
+
+.stats_infor>h3{
+  text-align: center;
+  color:yellow;
+  font-size:20px;
+  margin-top:20px;
+}
+.panel_title{
+  height: 60px;
+  width:50%;
+  margin-left: 25%;
+  background-color:green;
+  text-align:center;
+  color:white;
+}
+.my_admin_table{
+  width:100%;
+  opacity:0.78;
+  background-color:white;
+  color: blue;
+  margin-top:10px;
+    margin-top:20px;
+}
+.data_modified_1{
+  color:green;
+  text-align: center;
+  margin-top:20px;
+}
+.panel_row_div{
+  margin-top:10px;
+}
+.admin_delete_add{
+  height:50px;
+  width:90%;
+  margin-left:5%;
+  background-color: lightBlue;
+  border-radius:10px;
+  opacity:0.78;
+}
+.my_delete_add_buttons{
+  height:30px;
+  width:20%;
+  margin-left:10%;
+  margin-top:10px;
+  border-radius:25px;
+  background-color:lightgreen;
+  color:blue;
+  font-size:20px;
+}
+.adminLogin_class{
+  height: 290px;
+  width:40%;
+  margin-left:30%;
+  background-color: rgba(255, 0, 0, 0.5);
+  margin-top:40px;
+}
+.adminLogin_class>h2{
+  text-align: center;
+  color:white;
+}
+.admin_login_form {
+  height:30px;
+  width:80%;
+  margin-left:10%;
+  margin-top:20px;
+  border-radius:25px;
+text-align: center;
+
+}
+.login_admin_button{
+  height:30px;
+  width:18%;
+  margin-left:41%;
+  background-color:green;
+  color:white;
+  margin-top:20px;
+  border-radius: 12px;
+}
+.administraion_registration{
+
+  Margin-top:40px;
+  height: 400px;
+  width:40%;
+  margin-left:30%;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.administraion_registration>h4{
+  text-align: center;
+  color:white;
+  font-size:30px;
+}
+.admin_user_input{
+height:30px;
+margin-top:20px;
+width:80%;
+margin-left:10%;
+border-radius: 20px;
+outline: none;
+text-align: center;
+
+}
+.admin_register_button{
+  height:25px;
+  width:26%;
+  margin-left:37%;
+  background-color:green;
+  color:white;
+  text-align: center;
+  margin-top:20px;
+}
+.admin-select_profession{
+  height:30px;
+  width: 50%;
+  text-align: center;
+
+
+}
+/*sales div*/
+.main_sales{
+  height:700px;
+  width:80%;
+  background-color: rgba(255, 0, 0, 0.5);
+  margin-left:10%;
+}
+
+.services_title{
+  height:40px;
+  width:40%;
+  color:white;
+  background-color: green;
+text-align: center;
+margin-left:30%;
+padding-top:10px;
+font-size:20px;
+font-family:serif;
+
+}
+.sales_button{
+  height:200px;
+  width:28%;
+
+
+}
+.sales_button_one{
+    background-image: Url("R14.jpg");
+    margin-left:2%;
+    margin-top:18px;
+}
+.sales_button_two{
+    background-image: Url("R15.jpg");
+      margin-left:5%;
+}
+.sales_button_three{
+    background-image: Url("ralyway5.jpg");
+      margin-left:5%;
+}
+.sales_button_texts{
+  height:40px;
+  width:28%;
+  background-color:green;
+  color:white;
+  font-weight: bolder;
+}
+.sales_button_one_text{
+
+    margin-left:2%;
+    margin-top:18px;}
+
+.sales_button_two_text{
+
+          margin-left:5%;
+    }
+    .sales_button_three_text{
+
+          margin-left:5%;
+    }
+    .sales_button_one_info{
+      margin-left:2%;
+      margin-top:18px;
+    }
+    .sales_button_two_info{
+        margin-left:5%;
+    }
+    .sales_button_three_info{
+        margin-left:5%;
+    }
+.hompepage_tabs{
+  height:50px;
+  width:80%;
+  margin-left:10%;
+  background-color:red;
+}
+.tabs_button{
+  height:30px;
+  width:23%;
+  background-color:green;
+margin-left:1%;
+  margin-top: 5px;
+  color:WHITE;
+  font-weight: bolder;
+  font-weight:bolder;
+}
