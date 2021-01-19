@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta name="viewport" content="width=device-width, 
+    initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <title>Greenwood bank limited</title>
+    <link href="calcsaver.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </head>
+  <body onload="myFunction()">
+<nav class="main_div_hometab">
+  <div class="main_div_form_title_div">
+  <div class="main_div_title"><h1>GREENWOOD <BR/>BANK</h1></div>
+
+<form class="myupper_div_main_div">
+<div class="myupper_div_main_div_data personal">PERSONAL</div>
+<div class="myupper_div_main_div_data business">BUSINESS</div>
+<div class="myupper_div_main_div_data about"><label for="about">ABOUT</label> <select type="mission_vision_history">
+  <option value="MISSION">MISSION</option>
+      <option value="vISSION">vISSION</option>
+          <option value="HISTORY">HISTORY</option>
+
+</select></div>
+<div class="myupper_div_main_div_data Contacts">
+  <label for="about">CONTACTS</label> <select type="Contacts">
+    <option value="FACEBOOK ">FACEBOOK</option>
+        <option value="PHONE" onclick= "myContacts()">PHONE</option>
+            <option value="TWITTER">TWITTER</option>
+
+  </select>
+
+</div>
+
+</form>
+
+</div>
+<form class="login_form">
+
+<input type type="text" placeholder="FULL NAMES" CLASS="login_values"></input>
+<input  type="Password" placeholder="PASSWORD" CLASS="login_values"></input>
+<button type="submit" class="login_button" value="Login">Login</button>
+</form>
+
+<div class="middle_display_transition_div"  id=" middle_div">
+
+<div class="middle_transtion_divs_split middle_div_homepage_left_div" id="left_div">
+
+
+
+</div>
+<div class=" middle_transtion_divs_split middle_div_homepage_right_div" id="right_div"></div>
+</div>
+<div class="lower_div_home_page">
+<div class="lower_div_homepage_subdivs adert">
+<h1> GET  YOUR ACCOUNT </br>TODAY</br>
+<Button class="apply_now  lower_homepage_div_buttons"><a href="acountApplication.html">APPLY NOW!!!</a></Button>
+</h1>
+
+
+</div>
+<div class="lower_div_homepage_subdivs open_learn_more">
+<h1>NOW</br>OPEN!!!<br>
+  <br>
+
+<button class="learn_More  lower_homepage_div_buttons"><a href="">LEARN MORE</a></button>
+
+</h1>
+
+</div>
+<div class="lower_div_homepage_subdivs need_Help">
+<h1> NEED HELP?<br>
+  TALK TO US!!</h1>
+  <br>
+    <br>
+
+  <button class="talk_to_us  lower_homepage_div_buttons"><a href="">CONTACT US</a></button>
+
+
+</div>
+</div>
+<div id="carouselExampleIndicators" class="image_class_transition" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="horizontal_policies">
+
+
+<form class="horizontal_policies_feedbak_on_services">
+<p>What do you think about our services?</p>
+<input  type="text" placeholder="Your Feedback Here"></input>
+<button type="submit" class="fedback_submission">SEND </button>
+
+</form>
+<div class="horizontal_policies_policies">
+<h2><u>Policies!!</u></h2>
+<P>  Greenwood bank is governed by the policies set out by the Central Bank of   Kenya(CBK).We are therefore in adhearance of the Kenyan Laws and constitutional nedds,
+  it is also our big goal to make sure that we satisfy our
+   customers needs while still folowing the recomended laws .</p>
+
+</div>
+
+
+</div>
+<footer class="my_footer">
+  <p> @all rights reserved :http//greenwoodbanklimited.com</p>
+</footer>
+
+
+</nav>
+
+<script>
+function myFunction(){
+  document.getElementById("left_div").style.transitionDuration="2s";
+    document.getElementById("right_div").style.transitionDuration="4s";
+      document.getElementById("mmiddle_div").style.transitionDuration="4s";
+}
+
+</script>
+
+
+<script src="transitionBanner.js" type="text/javascript">
+
+
+
+</script>
+  </body>
+
+</html>
